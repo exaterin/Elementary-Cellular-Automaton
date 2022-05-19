@@ -30,7 +30,7 @@ class Neighbors{
     }   
 }
 
-class Program15{
+class Automaton{
 public static int [] createANewGeneration(Cell cell){
     int [] nextGeneration = new int[cell.lengthOfCell];
     int [,] puttern = {{0,0,0}, {0,0,1}, {0,1,0}, {0,1,1}, {1,0,0}, {1,0,1}, {1,1,0}, {1,1,1}};
